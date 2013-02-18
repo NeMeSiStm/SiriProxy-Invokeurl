@@ -38,7 +38,7 @@ class SiriProxy::Plugin::2url < SiriProxy::Plugin
     #Musik im Badezimmer Ein.
   end
 
-  listen_for /test sonos/i do
+  listen_for /test Musik/i do
     say "Hallo Michael, Sonos zu PHP funktioniert einwandfrei. Glaube ich zumindest." #say something to the user!
 
     request_completed #always complete your request! Otherwise the phone will "spin" at the user!
