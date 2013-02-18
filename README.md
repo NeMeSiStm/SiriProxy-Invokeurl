@@ -1,4 +1,4 @@
-siriproxy2url
+siriproxy-Invokeurl
 =============
 
 THIS PLUGIN IS IN ALPHA STATE AND ONLY FOR PRIVATE TESTING
@@ -17,8 +17,10 @@ insert the following 2 lines to your config.yml
 
 
 
-stop SiriProxy
+stop SiriProxy (CTRL + C)
+
+execute: siriproxy update
 
 execute: bundle install
 
-run SiriProxy again
+execute: rvmsudo siriproxy server
